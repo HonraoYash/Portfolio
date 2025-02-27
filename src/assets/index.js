@@ -20,11 +20,22 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import cpp from "./tech/cpp.png";
+import mysql from "./tech/mysql.png";
+import pytorch from "./tech/pytorch.png";
+import ruby from "./tech/ruby.png";
+import tf from "./tech/tf.png";
+import aws from "./tech/aws.png"
+import hubgit from "./tech/hubgit.png"
+import huggingface from "./tech/huggingface.png"
+import powerbi from "./tech/powerbi.png"
+import tableau from "./tech/tableau.png"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+
+import mitwpu from "./company/mitwpu.png";
+import wk from "./company/wk.png";
+import csi from "./company/csi.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,11 +63,21 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
+  wk,
+  mitwpu,
+  csi,
+  cpp,
+  mysql,
+  python,
+  pytorch,
+  ruby,
+  tf,
+  aws,
+  huggingface,
+  hubgit,
+  powerbi,
+  tableau,
 };

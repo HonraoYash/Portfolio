@@ -51,67 +51,40 @@ const About = () => {
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            As a software enthusiast and a data geek with a knack for turning
-            complex problems into actionable insights, I'm on a mission to
-            bridge the gap between cutting-edge technology and real-world
-            applications. Currently pursuing my MS in Computer Science at Texas
-            A&M University, I'm diving deep into the realms of AI, Machine
-            Learning, Software Engineering and Natural Language Processing,
-            always hungry for the next big challenge.
+            🚀 Software Enthusiast | AI & Data Science Innovator | Problem Solver
           </motion.p>
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            My journey in tech has been nothing short of exhilarating. From
-            developing a Power BI dashboard that revolutionized financial
-            reporting at Wolters Kluwer to proposing an AI-driven trucking
-            system that could reshape logistics operations, I've consistently
-            pushed the boundaries of what's possible with data. My research
-            efforts have culminated in a published patent and four research
-            papers, exploring everything from software requirement extraction to
-            early Alzheimer's diagnosis using Deep Learning.
+            As a passionate software enthusiast and data geek, I thrive on transforming complex challenges into actionable insights. Currently pursuing my MS in Computer Science at Texas A&M University, I’m deeply immersed in Data Science, AI/ML, NLP, and Software Engineering, always pushing the boundaries of innovation.
           </motion.p>
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            But I'm not just about algorithms and datasets. I believe in the
-            power of technology to make a tangible difference in people's lives.
-            Whether it's creating a therapeutic image generation system to help
-            manage anxiety or developing a natural language interface for
-            database queries, my projects always aim to solve real-world
-            problems and empower users.
+            From revolutionizing financial analytics at Wolters Kluwer with a dynamic Power BI dashboard to pioneering AI-driven logistics solutions, my work consistently blends cutting-edge technology with real-world impact. My research contributions include a patented AI trucking system, four published papers, and breakthroughs in software requirement extraction and Alzheimer’s diagnosis using Deep Learning.
           </motion.p>
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            As a former General Secretary of the Computer Society of India at
-            MIT-WPU and a current member of the Aggie Data Science Club, I
-            thrive in collaborative environments where ideas flow freely and
-            innovation is the norm. I'm always on the lookout for opportunities
-            to learn, grow, and contribute to groundbreaking projects.
+            Beyond algorithms and datasets, I believe in tech for good—whether it’s developing therapeutic AI for mental wellness or creating smarter human-AI interactions. As a former General Secretary of the Computer Society of India at MIT-WPU and an active Aggie Data Science Club member, I thrive in collaborative, fast-paced environments where ideas fuel innovation.
           </motion.p>
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            If you're passionate about leveraging data science and AI to create
-            impactful solutions, or if you're looking for a dedicated team
-            member who can bring both technical expertise and creative
-            problem-solving to the table, let's connect! I'm eager to explore
-            how we can work together to shape the future of technology and make
-            a lasting impact in the world of data science.
+            Always seeking new challenges, I’m eager to connect, collaborate, and build AI-driven solutions that shape the future of technology. Let’s create something extraordinary! 
           </motion.p>
         </div>
 
         {/* Right Section: Image */}
         <div className="w-full md:w-1/3 flex justify-center">
           <img
-            src="/path/to/your-image.jpg"
+            src="src\assets\IMG_3629.jpeg"
             alt="Your Name"
-            className="rounded-lg shadow-lg object-cover max-h-96"
+            className="rounded-lg shadow-lg object-cover w-full h-auto max-w-lg"
           />
         </div>
       </div>

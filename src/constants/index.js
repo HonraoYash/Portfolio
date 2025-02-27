@@ -15,14 +15,24 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    wk,
+    mitwpu,
+    csi,
+    cpp,
+    python,
+    mysql,
+    pytorch,
+    ruby,
+    tf,
+    aws,
+    huggingface,
+    hubgit,
+    powerbi,
+    tableau,
   } from "../assets";
   
   export const navLinks = [
@@ -42,63 +52,63 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Data Scientist and Analyst",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "AI and ML Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Software Developer and Engineer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Researcher",
       icon: creator,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Pytorch",
+      icon: pytorch,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "Tensorflow",
+      icon: tf,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "MySQL",
+      icon: mysql,
     },
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "PowerBI",
+      icon: powerbi,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Tableau",
+      icon: tableau,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "AWS",
+      icon: aws,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "HuggingFace",
+      icon: huggingface,
     },
     {
       name: "MongoDB",
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Github",
+      icon: hubgit,
     },
     {
       name: "git",
@@ -112,59 +122,73 @@ import {
       name: "docker",
       icon: docker,
     },
+    // {
+    //   name: "CSS",
+    //   icon: css,
+    // },
+    // {
+    //   name: "HTML",
+    //   icon: html,
+    // },
+    // {
+    //   name: "JavaScript",
+    //   icon: javascript,
+    // },
+    // {
+    //   name: "ReactJS",
+    //   icon: reactjs,
+    // },
+    // {
+    //   name: "TailwindCSS",
+    //   icon: tailwind,
+    // },
+    // {
+    //   name: "Ruby",
+    //   icon: ruby,
+    // },
+    // {
+    //   name: "ThreeJS",
+    //   icon: threejs,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Data Scientist Intern",
+      company_name: "Wolters Kluwer",
+      icon: wk,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2023 - December 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed 'Analysis of Annual Recurring Revenue' using 3.5M client records, creating a dynamic Power BI dashboard that improved business insights.",
+        "Enhanced financial reporting accuracy to 95%, driving a 30% increase in revenue through data-driven decisions.",
+        "Conducted exploratory data analysis to identify key business trends, improving operational efficiency by 20% in financial operations.",
+        "Automated data collection and processing with Python and Pandas, saving 5 hours per week and enabling strategic focus across departments.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Undergraduate Researcher",
+      company_name: "MIT-WPU",
+      icon: mitwpu,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "August 2022 - November 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Proposed an AI/ML-driven trucking system, optimizing routes and forecasting demand for revenue growth in logistic operations, resulting in a 30% increase in operational efficiency.",
+        "Implemented a methodology to extract and classify software requirements from SRS Documents using ML and NLP with an accuracy of 78% and proposed a Deep Learning approach for Alzheimer’s diagnosis with an accuracy of 95%.",
+        "Published 1 patent and 4 Research papers in Springer Journals.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "General Secretary",
+      company_name: "Computer Socierty of India",
+      icon: csi,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "June 2022 - May 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Led a team of 150+ members",
+        "Organized and managed events throughout two years with a footfall of more than 12000 people.",
+        "Conducted social awareness campaigns and marathons for social cause.",
+        "Delivered Seminars and Workshops for Juniors",
       ],
     },
   ];
