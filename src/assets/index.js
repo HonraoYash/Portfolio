@@ -38,8 +38,11 @@ import wk from "./company/wk.png";
 import csi from "./company/csi.png";
 
 import carrent from "./carrent.png";
+import multimodal from "./multimodal.jpg";
+import nxtfolio from "./nxtfolio.jpg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import genai from "./genai.jpg";
 
 export {
   logo,
@@ -64,8 +67,11 @@ export {
   typescript,
   threejs,
   carrent,
+  multimodal,
+  nxtfolio,
   jobit,
   tripguide,
+  genai,
   wk,
   mitwpu,
   csi,

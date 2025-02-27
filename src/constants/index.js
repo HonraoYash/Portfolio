@@ -16,7 +16,9 @@ import {
     figma,
     docker,
     carrent,
+    multimodal,
     jobit,
+    nxtfolio,
     tripguide,
     threejs,
     wk,
@@ -33,6 +35,7 @@ import {
     hubgit,
     powerbi,
     tableau,
+    genai,
   } from "../assets";
   
   export const navLinks = [
@@ -161,7 +164,8 @@ import {
       date: "July 2023 - December 2023",
       points: [
         "Developed 'Analysis of Annual Recurring Revenue' using 3.5M client records, creating a dynamic Power BI dashboard that improved business insights.",
-        "Enhanced financial reporting accuracy to 95%, driving a 30% increase in revenue through data-driven decisions.",
+        "Implemented time series analysis on six years of historical data to predict client rate increments and expected revenue growth for the upcoming year.",
+        "Enhanced financial reporting accuracy to 95%, driving a 30% increase in revenue enhancement initiatives through data-driven decisions by higher stakeholders.",
         "Conducted exploratory data analysis to identify key business trends, improving operational efficiency by 20% in financial operations.",
         "Automated data collection and processing with Python and Pandas, saving 5 hours per week and enabling strategic focus across departments.",
       ],
@@ -222,33 +226,29 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Meal Nutrition Analysis using Multi-modal data",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a multimodal deep learning framework integrating CNNs for meal image processing, Bi-LSTMs with attention for CGM data, and FCNs for demographic analysis. Improved calorie intake prediction accuracy by 30%, achieving a RMSRE of 0.35 through an optimized multimodal approach.",
       tags: [
         {
-          name: "react",
+          name: "machine learning",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "deep learning",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: multimodal,
+      source_code_link: "https://github.com/HonraoYash/Meal-Nutrition-Analysis-using-Multi-modal-data.",
     },
     {
-      name: "Job IT",
+      name: "NXTFolio: A Content-Based Job-Focused Social Media Platform",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Contributed to a Ruby on Rails-based job-focused social media platform with 20K users, AI-powered bio generation, and chat. Improved test coverage to 90.79% and deployed on Heroku with Docker.",
       tags: [
         {
-          name: "react",
+          name: "ruby-on-rails",
           color: "blue-text-gradient",
         },
         {
@@ -256,33 +256,33 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "docker",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: nxtfolio,
+      source_code_link: "https://nxtfolio.herokuapp.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Personalized Therapeutic Image Generation using Generative AI",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Developed a latent diffusion model with 92.5% anatomical accuracy for therapeutic image synthesis. Achieved 93% classification accuracy, optimized generation time from 30 mins to 1 min.",
       tags: [
         {
-          name: "nextjs",
+          name: "genai",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "machine learning",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "python",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: genai,
+      source_code_link: "https://github.com/HonraoYash/AI-Based-Therapeutic-Image-Generation-Using-Stable-Diffusion",
     },
   ];
   
