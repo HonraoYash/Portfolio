@@ -83,7 +83,7 @@ const About = () => {
         <div className="w-full md:w-1/3 flex justify-center">
           <img
             src="src\assets\yashpic.jpg"
-            alt="Your Name"
+            alt="My picture"
             className="rounded-lg shadow-lg object-cover w-full h-auto max-w-lg"
           />
         </div>
