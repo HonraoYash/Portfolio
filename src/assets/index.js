@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import website from "./website.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -26,19 +27,28 @@ import mysql from "./tech/mysql.png";
 import pytorch from "./tech/pytorch.png";
 import ruby from "./tech/ruby.png";
 import tf from "./tech/tf.png";
-import aws from "./tech/aws.png"
-import hubgit from "./tech/hubgit.png"
-import huggingface from "./tech/huggingface.png"
-import powerbi from "./tech/powerbi.png"
-import tableau from "./tech/tableau.png"
+import aws from "./tech/aws.png";
+import hubgit from "./tech/hubgit.png";
+import huggingface from "./tech/huggingface.png";
+import powerbi from "./tech/powerbi.png";
+import tableau from "./tech/tableau.png";
 
 
 import mitwpu from "./company/mitwpu.png";
 import wk from "./company/wk.png";
 import csi from "./company/csi.png";
+import tamu from "./company/tamu.png"
+import karini from "./company/karini.png";
 
 import carrent from "./carrent.png";
-import multimodal from "./multimodal.jpg";
+import multimodal from "./multimodal.png";
+import smartrobotic from "./smartrobotic.jpg";
+import navigaze from "./navigaze.jpg";
+import liveaqi from "./liveaqi.jpeg";
+import expensehive from "./expensivehive.png";
+import swiftbank from "./swiftbank.png";
+import toyotai from "./toyotai.png"
+import vortexdb from "./vortexdb.png";
 import nxtfolio from "./nxtfolio.jpg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -51,6 +61,7 @@ export {
   mobile,
   web,
   github,
+  website,
   menu,
   close,
   css,
@@ -68,10 +79,19 @@ export {
   threejs,
   carrent,
   multimodal,
+  vortexdb,
+  smartrobotic,
+  navigaze,
+  liveaqi,
+  expensehive,
+  swiftbank,
+  toyotai,
   nxtfolio,
   jobit,
   tripguide,
   genai,
+  karini,
+  tamu,
   wk,
   mitwpu,
   csi,

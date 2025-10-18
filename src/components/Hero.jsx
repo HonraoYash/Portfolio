@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[85px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[85px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 z-10 relative`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
@@ -22,6 +22,43 @@ const Hero = () => {
             I am a Master's in Computer Science student <br className='sm:block hidden' />
             at Texas A&M University
           </p>
+          <div className="mt-6 flex flex-wrap gap-4">
+            {/* Resume Button */}
+            <motion.a
+              href="https://drive.google.com/file/d/1uQPw3ngSQUggNPhxEyQ67kLH886mXrlY/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <motion.button
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.3, duration: 0.6 }}
+                className="px-[22px] py-[11px] bg-[#915EFF] text-white font-semibold rounded-lg shadow-md hover:bg-[#7e4fe0] transition-all duration-300"
+              >
+                View Resume
+              </motion.button>
+            </motion.a>
+
+            {/* Schedule Meet Button */}
+            <motion.a
+              href="https://calendly.com/yashhonrao2024/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <motion.button
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.4, duration: 0.6 }}
+                className="px-[22px] py-[11px] border-2 border-[#915EFF] text-[#915EFF] font-semibold rounded-lg shadow-md hover:bg-[#915EFF] hover:text-white transition-all duration-300"
+              >
+                Schedule Meet
+              </motion.button>
+            </motion.a>
+          </div>
         </div>
       </div>
 

@@ -51,19 +51,19 @@ const About = () => {
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            🚀 Software Enthusiast | AI & Data Science Innovator | Problem Solver
+            🚀 AI & ML Engineer | Software Enthusiast | Data Science Innovator | Problem Solver
           </motion.p>
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            As a passionate software enthusiast and data geek, I thrive on transforming complex challenges into actionable insights. Currently pursuing my MS in Computer Science at Texas A&M University, I’m deeply immersed in Data Science, AI/ML, NLP, and Software Engineering, always pushing the boundaries of innovation.
+            As a passionate AI/ML Engineer, Software enthusiast and Data geek, I thrive on transforming complex challenges into actionable insights. Currently pursuing my MS in Computer Science at Texas A&M University, I’m deeply immersed in applied AI/ML, Data Science, NLP, and Software Engineering, always pushing the boundaries of innovation.
           </motion.p>
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            From revolutionizing financial analytics at Wolters Kluwer with a dynamic Power BI dashboard to pioneering AI-driven logistics solutions, my work consistently blends cutting-edge technology with real-world impact. My research contributions include a patented AI trucking system, four published papers, and breakthroughs in software requirement extraction and Alzheimer’s diagnosis using Deep Learning.
+            From leveraging Gen AI to solve real-world business problem at Karini AI to revolutionizing financial analytics at Wolters Kluwer with dynamic Power BI dashboards, my work consistently blends cutting-edge technology with real-world impact. My research contributions include a patented AI trucking system, four published papers, and breakthroughs in software requirement extraction and Alzheimer’s diagnosis using Deep Learning.
           </motion.p>
           <motion.p
             variants={fadeIn("", "", 0.1, 1)}
