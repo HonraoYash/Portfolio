@@ -124,6 +124,8 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+        <div> Email: yashhonrao2024@gmail.com | yash.honrao@tamu.edu </div>
+        <div> Contact: +1 (979) 344-7800 | +91 93593 00484 </div>
       </motion.div>
 
       <motion.div
